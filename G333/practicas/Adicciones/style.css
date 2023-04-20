@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap");
+:root {
+  --body-fondo: #151515;
+  --texto: #f5f5f5;
+  --transicion: 0.3s ease-in-out;
+  --boton-fondo: #20cc20;
+  --boton-texto: #ffffff;
+  --boton-hover-texto: #20cc20;
+  --boton-hover: #1caa1c;
+  --boton-active: #189718;
+  --boton-pressed: #146e14;
+  --border-radius: 3px;
+}
+
+button {
+  background-color: var(--boton-fondo);
+  color: var(--boton-texto);
+  transition: background-color var(--transicion);
+  border-radius: var(--border-radius);
+  border: none; /* Elimina los estilos de borde */
+  outline: none; /* Elimina los estilos de outline */
+  cursor: pointer; /* Agrega un estilo de cursor */
+  /* Agrega cualquier otro estilo personalizado que desees */
+}
+
+button:hover {
+  color: var(--boton-hover-texto);
+}
+
+button:active {
+  background-color: var(--boton-active);
+}
+
+button:active:focus {
+  background-color: var(--boton-pressed);
+}
+
+body {
+  background-color: var(--body-fondo);
+  color: var(--texto);
+
+  font-family: "Poppins", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  min-width: 100vw;
+  min-height: 100vh;
+}
+body::-webkit-scrollbar {
+  width: 0px;
+  background-color: #f5f5f5;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+  padding: 0;
+}
+
+/* Media query para tabletas */
+/* Media query para pantallas de celular */
+@media (max-width: 767px) {
+  .icon {
+    background-color: #f8f8f8;
+    display: none;
+    padding: 14px 16px;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+  }
+  ul {
+    display: none;
+  }
+}
+
+/* Media query para pantallas de tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .icon {
+    display: none;
+  }
+  ul {
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: var(--texto);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    color: var(--boton-hover-texto);
+  }
+}
+
+/* Media query para pantallas de escritorio */
+@media (min-width: 1024px) {
+  .icon {
+    display: none;
+  }
+  ul {
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: var(--texto);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: var(--transicion);
+  }
+
+  li a:hover {
+    color: var(--boton-hover-texto);
+  }
+}
+
+nav {
+  background-color: #202020;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.logo > span {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #35df35;
+}
+
+section {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+
+  background-color: #202020;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 30px;
+}
+h3 {
+  font-weight: 500;
+}
+p {
+  font-size: 14px;
+}
+footer {
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.pregunta {
+  font-size: 32px;
+  color: #7272ff;
+  font-weight: 600;
+}
+.div_pregunta_respuesta {
+  background: #303030;
+  border-radius: 8px;
+  padding: 10px;
+}
+.preguntas_contenedor {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+  flex-direction: column;
+}
+.audio_div {
+  gap: 20px;
+  padding: 20px;
+  background-color: #181818;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.audio_div > span {
+  color: gray;
+  font-weight: 600;
+}
+.video_contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+video {
+  height: 400px;
+  border-radius: 4px;
+}
