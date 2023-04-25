@@ -43,10 +43,10 @@
 
 
         #torres_contenedor {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
+               display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
         }
 
         .t {
@@ -198,7 +198,7 @@
             const torreDestino = document.getElementById(torre_destino);
             const dona_mas_pequena = torreDestino.querySelector('.donas div');
             if (dona_mas_pequena && dona_seleccionada.offsetWidth > dona_mas_pequena.offsetWidth) {
-                alert('No se puede mover la dona a esa torre ya que la dona de abajo tiene un tamaño menor a la dona que quieres colocar encima');
+                alert('No se puede mover la dona a esa torre ya que la dona de abajo tiene un tamaÃ±o menor a la dona que quieres colocar encima');
                 return;
             }
             if (!esDonaSuperior(dona_seleccionada)) {
@@ -210,7 +210,7 @@
 
             const donasTorreDestino = torreDestino.querySelectorAll('.donas div');
             if (donasTorreDestino.length === 3) {
-                alert('¡Has ganado!');
+                alert('Â¡Has ganado!');
             }
             dona_seleccionada = null;
             torre_origen = null;
