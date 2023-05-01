@@ -1,7 +1,1 @@
-[
-  {
-    "tarea": "333",
-    "materia": "ecologia",
-    "id": 3391
-  }
-]
+[]
