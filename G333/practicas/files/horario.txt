@@ -33,10 +33,5 @@
     "tarea": "Terminar torres de hanoi",
     "materia": "Ejecuta codigo en el lado del cliente",
     "id": 7
-  },
-  {
-    "tarea": "Ga",
-    "materia": "ejecuta-codigo-en-el-lado-del-cliente",
-    "id": 2126
   }
 ]
