@@ -1,10 +1,5 @@
 [
   {
-    "tarea": "Hacer mapa conceptual",
-    "materia": "Ecologia",
-    "id": 1
-  },
-  {
     "tarea": "Terminar problema",
     "materia": "Fisica",
     "id": 2
