@@ -10,11 +10,6 @@
     "id": 3
   },
   {
-    "tarea": "Llevar impresiones",
-    "materia": "Desarolla paginas web",
-    "id": 4
-  },
-  {
     "tarea": "Terminar lo de classroom",
     "materia": "Calculo",
     "id": 5
