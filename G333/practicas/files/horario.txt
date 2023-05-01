@@ -28,10 +28,5 @@
     "tarea": "Terminar torres de hanoi",
     "materia": "Ejecuta codigo en el lado del cliente",
     "id": 7
-  },
-  {
-    "tarea": "Hacer mapa conceptual",
-    "materia": "ecologia",
-    "id": 7830
   }
 ]
