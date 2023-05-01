@@ -20,11 +20,6 @@
     "id": 6
   },
   {
-    "tarea": "Terminar torres de hanoi",
-    "materia": "Ejecuta codigo en el lado del cliente",
-    "id": 7
-  },
-  {
     "tarea": "aaaaaa",
     "materia": "aaa",
     "id": 6
