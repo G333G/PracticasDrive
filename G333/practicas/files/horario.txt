@@ -23,10 +23,5 @@
     "tarea": "Terminar ciclo del oxigeno",
     "materia": "ecologia",
     "id": 7061
-  },
-  {
-    "tarea": "Terminar ciclo del oxigeno",
-    "materia": "ecologia",
-    "id": 9635
   }
 ]
