@@ -3,5 +3,10 @@
     "tarea": "Terminar ciclo del carbono",
     "materia": "ecologia",
     "id": 6916
+  },
+  {
+    "tarea": "Terminar ciclo del nitrogeno",
+    "materia": "ecologia",
+    "id": 7881
   }
 ]
