@@ -5,11 +5,6 @@
     "id": 6916
   },
   {
-    "tarea": "Terminar ciclo del nitrogeno",
-    "materia": "ecologia",
-    "id": 7881
-  },
-  {
     "tarea": "Terminar ciclo del oxigeno",
     "materia": "ecologia",
     "id": 7061
