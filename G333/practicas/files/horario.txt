@@ -1,7 +1,1 @@
-[
-  {
-    "tarea": "Para el 1ro de junio proyecto, presentarlo en salón de múltiples usos",
-    "materia": "desarolla-paginas-web",
-    "id": 8940
-  }
-]
+[]
