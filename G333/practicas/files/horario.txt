@@ -8,5 +8,10 @@
     "tarea": "Buscar listado de caracter controller de unity csharp",
     "materia": "ejecuta-codigo-en-el-lado-del-cliente",
     "id": 8859
+  },
+  {
+    "tarea": "Hacer pagina web para exponer en salon multi usos",
+    "materia": "desarolla-paginas-web",
+    "id": 4755
   }
 ]
