@@ -13,5 +13,10 @@
     "tarea": "Hacer tarea para  hoy",
     "materia": "calculo",
     "id": 7874
+  },
+  {
+    "tarea": "Proyecto en equipo",
+    "materia": "ecologia",
+    "id": 1293
   }
 ]
