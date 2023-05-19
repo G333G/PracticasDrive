@@ -8,5 +8,10 @@
     "tarea": "Hacer pagina web para exponer en salon multi usos",
     "materia": "desarolla-paginas-web",
     "id": 4755
+  },
+  {
+    "tarea": "Hacer tarea del grupo de wsp",
+    "materia": "fisica",
+    "id": 2988
   }
 ]
