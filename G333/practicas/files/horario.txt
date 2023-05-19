@@ -13,5 +13,10 @@
     "tarea": "Hacer tarea del grupo de wsp",
     "materia": "fisica",
     "id": 2988
+  },
+  {
+    "tarea": "Refracción,induce de incidencia, 2 velocidad de luz blanca y características de la kuz",
+    "materia": "física",
+    "id": 7259
   }
 ]
