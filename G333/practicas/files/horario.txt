@@ -28,5 +28,10 @@
     "tarea": "Refracción,induce de incidencia, 2 velocidad de luz blanca y características de la kuz",
     "materia": "física",
     "id": 6332
+  },
+  {
+    "tarea": "Refracción,induce de incidencia, 2 velocidad de luz blanca y características de la kuz",
+    "materia": "fisica",
+    "id": 2849
   }
 ]
